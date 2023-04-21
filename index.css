@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Inter', sans-serif;
+    color: rgb(232, 232, 232);
+}
+
+body {
+    background-color: #111111;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.place-content-center {
+    place-content: center;
+}
+
+.center-grid {
+    display: grid;
+    place-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.tracking-wide {
+    letter-spacing: 0.1em;
+}
+
+.text-sm {
+    font-size: 0.8rem;
+}
+
+.text-md {
+    font-size: 1rem;
+}
+
+.text-lg {
+    font-size: 1.2rem;
+}
+
+.text-xl {
+    font-size: 1.4rem;
+}
+
+.text-2xl {
+    font-size: 1.6rem;
+}
+
+.text-3xl {
+    font-size: 1.8rem;
+}
+
+.text-4xl {
+    font-size: 2rem;
+}
+
+.text-5xl {
+    font-size: 2.2rem;
+}
+
+.text-6xl {
+    font-size: 2.4rem;
+}
+
+.text-7xl {
+    font-size: 2.6rem;
+}
+
+.text-8xl {
+    font-size: 2.8rem;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-9xl {
+    font-size: 3rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-regular {
+    font-weight: 400;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.p-1 {
+    padding: 0.2rem;
+}
+
+.p-2 {
+    padding: 0.4rem;
+}
+
+.p-4 {
+    padding: 0.8rem;
+}
+
+.p-5 {
+    padding: 1rem;
+}
+
+.p-6 {
+    padding: 1.2rem;
+}
+
+.p-7 {
+    padding: 1.4rem;
+}
+
+.p-8 {
+    padding: 1.6rem;
+}
+
+.p-9 {
+    padding: 1.8rem;
+}
+
+.p-10 {
+    padding: 2rem;
+}
+
+.p-12 {
+    padding: 2.4rem;
+}
+
+.p-14 {
+    padding: 2.8rem;
+}
+
+.p-16 {
+    padding: 3.2rem;
+}
+
+.p-18 {
+    padding: 3.6rem;
+}
+
+.p-20 {
+    padding: 4rem;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.mb-10 {
+    margin-bottom: 2.5rem;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.w-screen {
+    width: 100vw;
+}
+
+.w-half {
+    width: 50%;
+}
+
+.h-half {
+    height: 50%;
+}
+
+.w-three__quarters {
+    width: 75%;
+}
+
+.glow-gradient-background {
+    background: linear-gradient(90deg, #35003a 0%, #000c30 50%, #280000 100%);
+    background-size: 600% 600%;
+    animation: glow 10s ease-in-out infinite;
+}
+
+.card-bubble {
+    background-color: #1a1a1a;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+    width: 50%;
+    transition: all 0.5s ease-in-out;
+}
+
+.card-bubble:hover {
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.8);
+}
+
+.card-bubble__content {
+    padding: 1rem;
+}
+
+.card-bubble__content__text {
+    padding: 1rem;
+}
+
+.card-bubble__content__image {
+    padding: 1rem;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+}
+
+th {
+    text-align: left;
+}
+
+th,
+td {
+    padding: 1rem;
+}
+
+.object-scale-down {
+    object-fit: scale-down;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.formContainer {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #0e0e0e;
+    border-radius: 5px;
+}
+
+.inputField {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.textArea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    color: black;
+}
+
+.checkBoxesContainer {
+    margin-bottom: 1rem;
+}
+
+.checkBoxLabel {
+    margin-right: 0.5rem;
+}
+
+.radioButtonsContainer {
+    margin-bottom: 1rem;
+}
+
+.dropDown {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.submitButton {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #0070f3;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.radioButtonLabel {
+    display: block;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.radioButtonLabel input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+@keyframes glow {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card-bubble {
+        width: 75%;
+    }
+}

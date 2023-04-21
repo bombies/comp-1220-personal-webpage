@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <main>
+        <div class="h-screen glow-gradient-background">
+            <div class="center-grid h-full place-content-center">
+                <h1 class="text-center tracking-wide text-9xl font-bold">
+                    Welcome To Ajani's World
+                </h1>
+                <p class="text-center tracking-wide text-3xl">
+                    Enjoy the journey... 🚀
+                </p>
+            </div>
+        </div>
+        <section class="min-h-screen p-18">
+            <h1 class="text-center tracking-wide text-9xl font-bold">
+                About Me
+            </h1>
+            <div class="center-flex h-full place-content-center">
+                <div class="card-bubble p-16">
+                    <p class="text-center tracking-wide text-lg text-left mb-10">
+                        ✨ My full name is <b style="color:blueviolet;">Ajani Green</b> and I am currently a student
+                        at
+                        the Univeristy of the West Indies (UWI) pursuing
+                        a bachelor's degree in Software Engineering.
+                    </p>
+                    <p class="text-center tracking-wide text-lg text-left mb-10">
+                        ✨ My primary education was at the <b style="color:blueviolet;">St. Jago Cathedral
+                            Preparatory School</b>, but
+                        that really is the boring part of my education, compared to highschool atleast. My
+                        highschool education was at <b style="color:rgb(250, 83, 83);">Campion College</b>
+                        where I given an abundance of resources and opportunities to explore my interests and
+                        develop my skills.
+                    </p>
+                    <p class="text-center tracking-wide text-lg text-left mb-10">
+                        ✨ I was born and raised in Spanish Town, Saint Catherine, Jamaica.
+                    </p>
+                    <p class="text-center tracking-wide text-lg text-left mb-10">
+                        ✨ My goals after graduation include working in the field of software engineering, and
+                        eventually starting my own company.
+                    </p>
+                </div>
+        </section>
+        <section class="min-h-screen p-18" style="background-color: rgba(137, 43, 226, 0.236);">
+            <h1 class="text-center tracking-wide text-9xl font-bold">
+                Some Other Info...
+            </h1>
+            <div class="center-flex h-full w-full place-content-center">
+                <div class="card-bubble p-16">
+                    <p class="text-center tracking-wide text-lg text-left mb-10">
+                        ✨ Here are three of my favourite websites:
+                    <ul class="mb-10">
+                        <li><a href="https://youtube.com">YouTube</a></li>
+                        <li><a href="https://github.com">GitHub</a></li>
+                        <li><a href="https://icanhazdadjoke.com">icanhazdadjoke</a></li>
+                    </ul>
+                    </p>
+                    <p class="text-center tracking-wide text-lg text-left mb-10">
+                        ✨ Here are some of my favourite books
+                    <table class="mb-10">
+                        <thead>
+                            <tr>
+                                <th>Book</th>
+                                <th>Author</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Harry Potter and the Philosopher's Stone</td>
+                                <td>J.K. Rowling</td>
+                            </tr>
+                            <tr>
+                                <td>Harry Potter and the Chamber of Secrets</td>
+                                <td>J.K. Rowling</td>
+                            </tr>
+                            <tr>
+                                <td>Harry Potter and the Prisoner of Azkaban</td>
+                                <td>J.K. Rowling</td>
+                            </tr>
+                            <tr>
+                                <td>Harry Potter and the Goblet of Fire</td>
+                                <td>J.K. Rowling</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </p>
+                    <p class="text-center tracking-wide text-lg text-left mb-10 flex-col">
+                        ✨ Here is a random cat image:
+                        <img src="https://cataas.com/cat" alt="cat" class="w-full object-scale-down" />
+                    </p>
+                </div>
+        </section>
+        <section class="min-h-screen p-18">
+            <h1 class="text-center tracking-wide text-9xl font-bold">
+                Contact Me
+            </h1>
+            <div class="center-flex h-full w-full place-content-center">
+                <div class="card-bubble p-16">
+                    <div class="formContainer">
+                        <h1>Feedback Form</h1>
+                        <form action="/submit" method="post">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required class="inputField" />
+
+                            <label for="feedback">Feedback:</label>
+                            <textarea id="feedback" name="feedback" rows="4" cols="50" required
+                                class="textArea"></textarea>
+
+                            <div class="checkBoxesContainer">
+                                <label class="checkBoxLabel">
+                                    <input type="checkbox" id="checkbox1" name="checkbox1" value="Checkbox 1" />
+                                    You agree to the Terms & Services
+                                </label>
+                            </div>
+
+                            <div class="radioButtonsContainer">
+                                <label for="radios">Feedback Type</label>
+                                <br />
+                                <label class="radioButtonLabel">
+                                    <input type="radio" id="radio1" name="radio" value="Radio 1" />
+                                    Bug Report
+                                </label>
+                                <label class="radioButtonLabel">
+                                    <input type="radio" id="radio2" name="radio" value="Radio 2" />
+                                    Suggestion
+                                </label>
+                                <label class="radioButtonLabel">
+                                    <input type="radio" id="radio3" name="radio" value="Radio 3" />
+                                    General Feedback
+                                </label>
+                            </div>
+
+                            <label for="dropdown">Severity Level</label>
+                            <br />
+                            <select id="dropdown" name="dropdown" class="dropDown" required>
+                                <option value="">Select an option</option>
+                                <option value="Option 1">Low</option>
+                                <option value="Option 2">Medium</option>
+                                <option value="Option 3">High</option>
+                            </select><br><br>
+
+                            <input type="submit" value="Submit" class="submitButton">
+                        </form>
+                    </div>
+                </div>
+        </section>
+    </main>
+</body>
+
+</html>
